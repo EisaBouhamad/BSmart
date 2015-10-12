@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C3FC46E1BC508560094AE26 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3FC4651BC508560094AE26 /* Course.swift */; settings = {ASSET_TAGS = (); }; };
+		7C3FC46F1BC508560094AE26 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3FC4661BC508560094AE26 /* CourseModel.swift */; settings = {ASSET_TAGS = (); }; };
+		7C3FC4701BC508560094AE26 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3FC4671BC508560094AE26 /* CourseTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		7C3FC4711BC508560094AE26 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3FC4681BC508560094AE26 /* CourseViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C3FC4721BC508560094AE26 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3FC4691BC508560094AE26 /* Lesson.swift */; settings = {ASSET_TAGS = (); }; };
+		7C3FC4731BC508560094AE26 /* LessonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3FC46A1BC508560094AE26 /* LessonModel.swift */; settings = {ASSET_TAGS = (); }; };
+		7C3FC4751BC508560094AE26 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3FC46C1BC508560094AE26 /* LessonViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C3FC4761BC508560094AE26 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3FC46D1BC508560094AE26 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		7CC13F0F1A7545BA0014DCBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC13F0E1A7545BA0014DCBC /* AppDelegate.swift */; };
-		7CC13F111A7545BA0014DCBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC13F101A7545BA0014DCBC /* ViewController.swift */; };
 		7CC13F141A7545BA0014DCBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC13F121A7545BA0014DCBC /* Main.storyboard */; };
 		7CC13F161A7545BA0014DCBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC13F151A7545BA0014DCBC /* Images.xcassets */; };
 		7CC13F191A7545BA0014DCBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CC13F171A7545BA0014DCBC /* LaunchScreen.xib */; };
 		7CC13F251A7545BA0014DCBC /* BSmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC13F241A7545BA0014DCBC /* BSmartTests.swift */; };
+		7CF543091BC51B0B0021DEEA /* CourseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF543071BC51B0B0021DEEA /* CourseTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C3FC4651BC508560094AE26 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		7C3FC4661BC508560094AE26 /* CourseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
+		7C3FC4671BC508560094AE26 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseTableViewCell.swift; path = ../CourseTableViewCell.swift; sourceTree = "<group>"; };
+		7C3FC4681BC508560094AE26 /* CourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseViewController.swift; path = ../CourseViewController.swift; sourceTree = "<group>"; };
+		7C3FC4691BC508560094AE26 /* Lesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		7C3FC46A1BC508560094AE26 /* LessonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonModel.swift; sourceTree = "<group>"; };
+		7C3FC46C1BC508560094AE26 /* LessonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LessonViewController.swift; path = ../LessonViewController.swift; sourceTree = "<group>"; };
+		7C3FC46D1BC508560094AE26 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 		7CC13F091A7545BA0014DCBC /* BSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC13F0D1A7545BA0014DCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CC13F0E1A7545BA0014DCBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7CC13F101A7545BA0014DCBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7CC13F131A7545BA0014DCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CC13F151A7545BA0014DCBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CC13F181A7545BA0014DCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7CC13F1E1A7545BA0014DCBC /* BSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC13F231A7545BA0014DCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CC13F241A7545BA0014DCBC /* BSmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSmartTests.swift; sourceTree = "<group>"; };
+		7CF543071BC51B0B0021DEEA /* CourseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,10 @@
 				7CC13F0B1A7545BA0014DCBC /* BSmart */,
 				7CC13F211A7545BA0014DCBC /* BSmartTests */,
 				7CC13F0A1A7545BA0014DCBC /* Products */,
+				7C3FC4651BC508560094AE26 /* Course.swift */,
+				7C3FC4661BC508560094AE26 /* CourseModel.swift */,
+				7C3FC4691BC508560094AE26 /* Lesson.swift */,
+				7C3FC46A1BC508560094AE26 /* LessonModel.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +98,12 @@
 			isa = PBXGroup;
 			children = (
 				7CC13F0E1A7545BA0014DCBC /* AppDelegate.swift */,
-				7CC13F101A7545BA0014DCBC /* ViewController.swift */,
+				7C3FC4681BC508560094AE26 /* CourseViewController.swift */,
+				7C3FC46C1BC508560094AE26 /* LessonViewController.swift */,
+				7C3FC46D1BC508560094AE26 /* SettingsViewController.swift */,
 				7CC13F121A7545BA0014DCBC /* Main.storyboard */,
+				7C3FC4671BC508560094AE26 /* CourseTableViewCell.swift */,
+				7CF543071BC51B0B0021DEEA /* CourseTableViewCell.xib */,
 				7CC13F151A7545BA0014DCBC /* Images.xcassets */,
 				7CC13F171A7545BA0014DCBC /* LaunchScreen.xib */,
 				7CC13F0C1A7545BA0014DCBC /* Supporting Files */,
@@ -193,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CC13F141A7545BA0014DCBC /* Main.storyboard in Resources */,
+				7CF543091BC51B0B0021DEEA /* CourseTableViewCell.xib in Resources */,
 				7CC13F191A7545BA0014DCBC /* LaunchScreen.xib in Resources */,
 				7CC13F161A7545BA0014DCBC /* Images.xcassets in Resources */,
 			);
@@ -212,8 +237,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CC13F111A7545BA0014DCBC /* ViewController.swift in Sources */,
+				7C3FC46E1BC508560094AE26 /* Course.swift in Sources */,
+				7C3FC4731BC508560094AE26 /* LessonModel.swift in Sources */,
+				7C3FC4761BC508560094AE26 /* SettingsViewController.swift in Sources */,
+				7C3FC46F1BC508560094AE26 /* CourseModel.swift in Sources */,
 				7CC13F0F1A7545BA0014DCBC /* AppDelegate.swift in Sources */,
+				7C3FC4701BC508560094AE26 /* CourseTableViewCell.swift in Sources */,
+				7C3FC4721BC508560094AE26 /* Lesson.swift in Sources */,
+				7C3FC4751BC508560094AE26 /* LessonViewController.swift in Sources */,
+				7C3FC4711BC508560094AE26 /* CourseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +437,7 @@
 				7CC13F2A1A7545BA0014DCBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CC13F2B1A7545BA0014DCBC /* Build configuration list for PBXNativeTarget "BSmartTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				7CC13F2D1A7545BA0014DCBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

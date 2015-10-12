@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CourseTableViewCell" customModule="BSmart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yohoo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICt-nu-4u2" userLabel="TextLabel">
+                        <rect key="frame" x="28" y="8" width="48" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcH-TA-aKK" userLabel="ColorLabel">
+                        <rect key="frame" x="8" y="8" width="15" height="44"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="AcL-fN-ABN"/>
+                            <constraint firstAttribute="height" constant="44" id="ekT-Xh-B7n"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="ICt-nu-4u2" firstAttribute="leading" secondItem="JcH-TA-aKK" secondAttribute="trailing" constant="5" id="0Qc-hB-1CK"/>
+                    <constraint firstItem="JcH-TA-aKK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="3bj-Pt-pe6"/>
+                    <constraint firstItem="JcH-TA-aKK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="FeJ-bc-tjP"/>
+                    <constraint firstItem="ICt-nu-4u2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Oal-JU-lcb"/>
+                    <constraint firstItem="ICt-nu-4u2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="TVB-3J-ygI"/>
+                    <constraint firstItem="ICt-nu-4u2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="XNA-Cx-vOb"/>
+                    <constraint firstItem="ICt-nu-4u2" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ZT1-bq-N95"/>
+                    <constraint firstItem="ICt-nu-4u2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="aTh-de-FXa"/>
+                    <constraint firstItem="ICt-nu-4u2" firstAttribute="leading" secondItem="JcH-TA-aKK" secondAttribute="trailing" id="hYa-Kl-dVF"/>
+                    <constraint firstItem="JcH-TA-aKK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="hxA-3u-1fW"/>
+                    <constraint firstItem="JcH-TA-aKK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="pLV-xL-vCp"/>
+                    <constraint firstItem="ICt-nu-4u2" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qDS-j3-fSX"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="3bj-Pt-pe6"/>
+                        <exclude reference="FeJ-bc-tjP"/>
+                        <exclude reference="TVB-3J-ygI"/>
+                        <exclude reference="XNA-Cx-vOb"/>
+                        <exclude reference="ZT1-bq-N95"/>
+                        <exclude reference="aTh-de-FXa"/>
+                        <exclude reference="hYa-Kl-dVF"/>
+                        <exclude reference="qDS-j3-fSX"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="labelCourseCell" destination="ICt-nu-4u2" id="Hgp-cb-qZu"/>
+            </connections>
+            <point key="canvasLocation" x="259" y="258"/>
+        </tableViewCell>
+    </objects>
+</document>
