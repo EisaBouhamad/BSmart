@@ -7,8 +7,6 @@
 //
 
 
-// test 
-
 import UIKit
 
 class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -29,7 +27,7 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         
         // Register the courseTableView cell
-        courseTableView.registerClass(CourseTableViewCell.self, forCellReuseIdentifier: "CourseCell")
+        //courseTableView.registerClass(CourseTableViewCell.self, forCellReuseIdentifier: "CourseCell")
         courseTableView.registerNib(UINib(nibName: "CourseTableViewCell", bundle: nil), forCellReuseIdentifier: "CourseCell")
         
         
@@ -55,13 +53,15 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         
         // Try to get a cell to use
-        let cell:CourseTableViewCell = tableView.dequeueReusableCellWithIdentifier("CourseCell") as! CourseTableViewCell!
+        let cell:CourseTableViewCell = tableView.dequeueReusableCellWithIdentifier("CourseCell") as! CourseTableViewCell
         
         
         //Set properties, to display each row ....
         
         // Set label text
         cell.setLabelText(courses[indexPath.row].courseTitle)
+        
+        //cell.setLabelText("yohoo")
         
         // set label color
         //cell.setLabelColor(courses[indexPath.row].courseColor)

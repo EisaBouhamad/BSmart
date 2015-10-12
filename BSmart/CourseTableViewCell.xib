@@ -63,7 +63,7 @@
             </tableViewCellContentView>
             <animations/>
             <connections>
-                <outlet property="labelCourseCell" destination="ICt-nu-4u2" id="Hgp-cb-qZu"/>
+                <outlet property="textCourseCell" destination="ICt-nu-4u2" id="WdN-q3-6P3"/>
             </connections>
             <point key="canvasLocation" x="259" y="258"/>
         </tableViewCell>

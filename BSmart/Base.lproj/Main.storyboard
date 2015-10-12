@@ -28,7 +28,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="t5S-Hy-vzP"/>
                     <connections>
-                        <outlet property="courseTableView" destination="9Qa-eI-pYl" id="Bnf-qi-g58"/>
+                        <outlet property="courseTableView" destination="9Qa-eI-pYl" id="jKe-R9-DoV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XXF-t7-RoC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -70,7 +70,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Olv-TN-TcX"/>
                     <connections>
-                        <outlet property="lessonTableView" destination="gXH-Ut-RHr" id="sSK-5N-FHR"/>
+                        <outlet property="lessonTableView" destination="gXH-Ut-RHr" id="Vn7-DZ-RXI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZjX-MS-Gwt" userLabel="First Responder" sceneMemberID="firstResponder"/>

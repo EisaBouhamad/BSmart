@@ -61,7 +61,6 @@ class LessonViewController: UIViewController, UITableViewDelegate, UITableViewDa
         //Trigger the segue to go to the LessonTableViewController
        // self.performSegueWithIdentifier("ToLessonViewController", sender: self)
 
-
         
     }
     
