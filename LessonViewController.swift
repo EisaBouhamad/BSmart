@@ -52,7 +52,6 @@ class LessonViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
     }
     
-    
     // When the user select a row
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         

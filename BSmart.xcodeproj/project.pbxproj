@@ -21,6 +21,15 @@
 		7CC13F191A7545BA0014DCBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CC13F171A7545BA0014DCBC /* LaunchScreen.xib */; };
 		7CC13F251A7545BA0014DCBC /* BSmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC13F241A7545BA0014DCBC /* BSmartTests.swift */; };
 		7CF543091BC51B0B0021DEEA /* CourseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF543071BC51B0B0021DEEA /* CourseTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		7CFCB7971BCD0A07001BD728 /* BeSmart.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFCB78E1BCD0A07001BD728 /* BeSmart.jpeg */; settings = {ASSET_TAGS = (); }; };
+		7CFCB7981BCD0A07001BD728 /* Bio_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFCB78F1BCD0A07001BD728 /* Bio_logo.jpg */; settings = {ASSET_TAGS = (); }; };
+		7CFCB7991BCD0A07001BD728 /* Chemistry_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFCB7901BCD0A07001BD728 /* Chemistry_logo.jpeg */; settings = {ASSET_TAGS = (); }; };
+		7CFCB79A1BCD0A07001BD728 /* Chemistry_logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFCB7911BCD0A07001BD728 /* Chemistry_logo1.png */; settings = {ASSET_TAGS = (); }; };
+		7CFCB79B1BCD0A07001BD728 /* Geo_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFCB7921BCD0A07001BD728 /* Geo_logo.jpeg */; settings = {ASSET_TAGS = (); }; };
+		7CFCB79C1BCD0A07001BD728 /* Math_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFCB7931BCD0A07001BD728 /* Math_logo.jpg */; settings = {ASSET_TAGS = (); }; };
+		7CFCB79D1BCD0A07001BD728 /* Physics_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFCB7941BCD0A07001BD728 /* Physics_logo.jpg */; settings = {ASSET_TAGS = (); }; };
+		7CFCB79E1BCD0A07001BD728 /* Settings_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFCB7951BCD0A07001BD728 /* Settings_logo.png */; settings = {ASSET_TAGS = (); }; };
+		7CFCB79F1BCD0A07001BD728 /* Stat_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFCB7961BCD0A07001BD728 /* Stat_logo.jpeg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +61,15 @@
 		7CC13F231A7545BA0014DCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CC13F241A7545BA0014DCBC /* BSmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSmartTests.swift; sourceTree = "<group>"; };
 		7CF543071BC51B0B0021DEEA /* CourseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseTableViewCell.xib; sourceTree = "<group>"; };
+		7CFCB78E1BCD0A07001BD728 /* BeSmart.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BeSmart.jpeg; sourceTree = "<group>"; };
+		7CFCB78F1BCD0A07001BD728 /* Bio_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bio_logo.jpg; sourceTree = "<group>"; };
+		7CFCB7901BCD0A07001BD728 /* Chemistry_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chemistry_logo.jpeg; sourceTree = "<group>"; };
+		7CFCB7911BCD0A07001BD728 /* Chemistry_logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chemistry_logo1.png; sourceTree = "<group>"; };
+		7CFCB7921BCD0A07001BD728 /* Geo_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Geo_logo.jpeg; sourceTree = "<group>"; };
+		7CFCB7931BCD0A07001BD728 /* Math_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Math_logo.jpg; sourceTree = "<group>"; };
+		7CFCB7941BCD0A07001BD728 /* Physics_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Physics_logo.jpg; sourceTree = "<group>"; };
+		7CFCB7951BCD0A07001BD728 /* Settings_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings_logo.png; sourceTree = "<group>"; };
+		7CFCB7961BCD0A07001BD728 /* Stat_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stat_logo.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,15 @@
 				7C3FC4671BC508560094AE26 /* CourseTableViewCell.swift */,
 				7CF543071BC51B0B0021DEEA /* CourseTableViewCell.xib */,
 				7CC13F151A7545BA0014DCBC /* Images.xcassets */,
+				7CFCB78E1BCD0A07001BD728 /* BeSmart.jpeg */,
+				7CFCB78F1BCD0A07001BD728 /* Bio_logo.jpg */,
+				7CFCB7901BCD0A07001BD728 /* Chemistry_logo.jpeg */,
+				7CFCB7911BCD0A07001BD728 /* Chemistry_logo1.png */,
+				7CFCB7921BCD0A07001BD728 /* Geo_logo.jpeg */,
+				7CFCB7931BCD0A07001BD728 /* Math_logo.jpg */,
+				7CFCB7941BCD0A07001BD728 /* Physics_logo.jpg */,
+				7CFCB7951BCD0A07001BD728 /* Settings_logo.png */,
+				7CFCB7961BCD0A07001BD728 /* Stat_logo.jpeg */,
 				7CC13F171A7545BA0014DCBC /* LaunchScreen.xib */,
 				7CC13F0C1A7545BA0014DCBC /* Supporting Files */,
 			);
@@ -218,8 +245,17 @@
 			files = (
 				7CC13F141A7545BA0014DCBC /* Main.storyboard in Resources */,
 				7CF543091BC51B0B0021DEEA /* CourseTableViewCell.xib in Resources */,
+				7CFCB79B1BCD0A07001BD728 /* Geo_logo.jpeg in Resources */,
+				7CFCB7971BCD0A07001BD728 /* BeSmart.jpeg in Resources */,
 				7CC13F191A7545BA0014DCBC /* LaunchScreen.xib in Resources */,
+				7CFCB79A1BCD0A07001BD728 /* Chemistry_logo1.png in Resources */,
+				7CFCB79D1BCD0A07001BD728 /* Physics_logo.jpg in Resources */,
+				7CFCB7981BCD0A07001BD728 /* Bio_logo.jpg in Resources */,
+				7CFCB79F1BCD0A07001BD728 /* Stat_logo.jpeg in Resources */,
+				7CFCB79C1BCD0A07001BD728 /* Math_logo.jpg in Resources */,
 				7CC13F161A7545BA0014DCBC /* Images.xcassets in Resources */,
+				7CFCB79E1BCD0A07001BD728 /* Settings_logo.png in Resources */,
+				7CFCB7991BCD0A07001BD728 /* Chemistry_logo.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

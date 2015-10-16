@@ -11,6 +11,20 @@ import UIKit
 class CourseModel: NSObject {
     
     
+    /*
+    // To return an array of logo images
+    func logos () ->UIImage {
+        
+        var Images : [UIImage] = [UIImage]()
+        
+        let math_logo:UIImage = UIImage(named:"Math_logo.jpg")!
+        
+        return logos()
+        
+    }
+    
+    */
+    
     
     // To return an array of courses
     func getCourse () ->[Course] {
@@ -24,43 +38,44 @@ class CourseModel: NSObject {
         let course4:Course = Course()
         let course5:Course = Course()
         let course6:Course = Course()
-
+    
+        
         
         course1.courseNumber = 100
         course1.courseTitle = "الرياضيات"
-        course1.courseImage = "Math_logo"
-        //course1.courseColor = UIColor.brownColor()
+        course1.courseImage = UIImage(named:"Math_logo.jpg")!
+        course1.courseColor = UIColor.brownColor()
         courses.append(course1)
-
+        
         course2.courseNumber = 200
         course2.courseTitle = "الفيزياء"
-        course2.courseImage = "image 2"
-        //course2.courseColor = UIColor.cyanColor()
+        course2.courseImage = UIImage(named:"Physics_logo.jpg")!
+        course2.courseColor = UIColor.cyanColor()
         courses.append(course2)
-
+        
         
         course3.courseNumber = 300
         course3.courseTitle = "الكيمياء"
-        course3.courseImage = "image 3"
-        //course3.courseColor = UIColor.magentaColor()
+        course3.courseImage = UIImage(named:"Chemistry_logo.jpeg")!
+        course3.courseColor = UIColor.magentaColor()
         courses.append(course3)
         
         course4.courseNumber = 400
         course4.courseTitle = "الاحياء"
-        course4.courseImage = "image 4"
+        course4.courseImage = UIImage(named:"Bio_logo.jpg")!
         //course4.courseColor = UIColor.purpleColor()
         courses.append(course4)
         
         course5.courseNumber = 500
         course5.courseTitle = "الاحصاء"
-        course5.courseImage = "image 5"
-        //course5.courseColor = UIColor.grayColor()
+        course5.courseImage = UIImage(named:"Stat_logo.jpeg")!
+        course5.courseColor = UIColor.grayColor()
         courses.append(course5)
         
         course6.courseNumber = 600
         course6.courseTitle = "جغرافيا"
-        course6.courseImage = "image 6"
-        //course6.courseColor = UIColor.orangeColor()
+        course6.courseImage = UIImage(named:"Geo_logo.jpeg")!
+        course6.courseColor = UIColor.orangeColor()
         courses.append(course6)
 
         return courses
@@ -131,5 +146,12 @@ class CourseModel: NSObject {
         return lessons
     }
     
+    
+    func getCourseColor () {
+        
+
+        
+    }
+
         
 }

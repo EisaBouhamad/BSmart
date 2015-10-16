@@ -55,23 +55,44 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // Try to get a cell to use
         let cell:CourseTableViewCell = tableView.dequeueReusableCellWithIdentifier("CourseCell") as! CourseTableViewCell
         
-        
         //Set properties, to display each row ....
         
         // Set label text
         cell.setLabelText(courses[indexPath.row].courseTitle)
         
-        //cell.setLabelText("yohoo")
+        
+        
+        
+        /*
+        // Loop through each dictionary and assign values to our question objs
+        
+        var index:Int
+        for index = 0; index < indexPath.row ; index++ {
+            
+            
+           cell.setLabelColor(courses[index].courseColor)
+            
+        
+        }
+        */
+        
+        
         
         // set label color
-        //cell.setLabelColor(courses[indexPath.row].courseColor)
+        
+        if ((indexPath.row) == 1) {
+            
+            cell.backgroundColor = courses[1].courseColor
+        }
+        
         
         // Adding arrows
-        //cell.accessoryType = .DetailDisclosureButton
+        // cell.accessoryType = .DetailDisclosureButton
         
         // Return the cell
         return cell
     }
+    
     
 
     // When the user select a row
@@ -122,7 +143,6 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // Call the method to choose wich lessons to display
         courseToDisplay = courseWasSelected()
         
-
         if segue.identifier == "ToLessonViewController" {
             
             // Select the segue

@@ -12,7 +12,10 @@ class Course: NSObject {
     
     var courseNumber:Int = 0
     var courseTitle:String = ""
-    var courseImage:String = ""
-    //var courseColor:UIColor = UIColor
+    var courseImage:UIImage = UIImage()
+    var courseColor:UIColor = UIColor()
+    
+    
     
 }
+

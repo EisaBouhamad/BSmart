@@ -36,11 +36,12 @@ class CourseTableViewCell: UITableViewCell {
         
     }
     
-    /*
-    func setLabelColor(color:UIColor) {
+    func setLabelColor(String:UIColor) {
         
-        textCourseCell.backgroundColor = backgroundColor
+        //textCourseCell.backgroundColor = UIColor.blackColor()
+        
+        ColorCourseCell.backgroundColor = String
+        
     }
     
-    */
 }
