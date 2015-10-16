@@ -15,13 +15,6 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yohoo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICt-nu-4u2" userLabel="TextLabel">
-                        <rect key="frame" x="28" y="8" width="48" height="21"/>
-                        <animations/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcH-TA-aKK" userLabel="ColorLabel">
                         <rect key="frame" x="8" y="8" width="15" height="44"/>
                         <animations/>
@@ -32,26 +25,47 @@
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ffu-k8-D4p">
+                        <rect key="frame" x="24" y="8" width="73" height="43"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="43" id="HnZ-94-XsN"/>
+                            <constraint firstAttribute="width" constant="73" id="og9-4b-7L8"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yohoo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICt-nu-4u2" userLabel="TextLabel">
+                        <rect key="frame" x="98" y="8" width="48" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <animations/>
                 <constraints>
                     <constraint firstItem="ICt-nu-4u2" firstAttribute="leading" secondItem="JcH-TA-aKK" secondAttribute="trailing" constant="5" id="0Qc-hB-1CK"/>
                     <constraint firstItem="JcH-TA-aKK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="3bj-Pt-pe6"/>
                     <constraint firstItem="JcH-TA-aKK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="FeJ-bc-tjP"/>
+                    <constraint firstItem="ICt-nu-4u2" firstAttribute="leading" secondItem="Ffu-k8-D4p" secondAttribute="trailing" constant="1" id="Nb6-t4-Der"/>
                     <constraint firstItem="ICt-nu-4u2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Oal-JU-lcb"/>
                     <constraint firstItem="ICt-nu-4u2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="TVB-3J-ygI"/>
                     <constraint firstItem="ICt-nu-4u2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="XNA-Cx-vOb"/>
                     <constraint firstItem="ICt-nu-4u2" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ZT1-bq-N95"/>
                     <constraint firstItem="ICt-nu-4u2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="aTh-de-FXa"/>
+                    <constraint firstItem="Ffu-k8-D4p" firstAttribute="leading" secondItem="JcH-TA-aKK" secondAttribute="trailing" constant="1" id="bke-XY-bxA"/>
                     <constraint firstItem="ICt-nu-4u2" firstAttribute="leading" secondItem="JcH-TA-aKK" secondAttribute="trailing" id="hYa-Kl-dVF"/>
                     <constraint firstItem="JcH-TA-aKK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="hxA-3u-1fW"/>
+                    <constraint firstItem="Ffu-k8-D4p" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="lJQ-Gt-rVS"/>
                     <constraint firstItem="JcH-TA-aKK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="pLV-xL-vCp"/>
+                    <constraint firstItem="ICt-nu-4u2" firstAttribute="leading" secondItem="Ffu-k8-D4p" secondAttribute="trailing" constant="1" id="pQ8-uX-bWp"/>
                     <constraint firstItem="ICt-nu-4u2" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qDS-j3-fSX"/>
+                    <constraint firstItem="Ffu-k8-D4p" firstAttribute="leading" secondItem="JcH-TA-aKK" secondAttribute="trailing" constant="1" id="qtu-Zc-ldu"/>
                 </constraints>
                 <variation key="default">
                     <mask key="constraints">
                         <exclude reference="3bj-Pt-pe6"/>
                         <exclude reference="FeJ-bc-tjP"/>
+                        <exclude reference="0Qc-hB-1CK"/>
                         <exclude reference="TVB-3J-ygI"/>
                         <exclude reference="XNA-Cx-vOb"/>
                         <exclude reference="ZT1-bq-N95"/>
@@ -64,6 +78,7 @@
             <animations/>
             <connections>
                 <outlet property="ColorCourseCell" destination="JcH-TA-aKK" id="E01-AY-RMw"/>
+                <outlet property="ImageCourseCell" destination="Ffu-k8-D4p" id="zbl-F3-CRE"/>
                 <outlet property="textCourseCell" destination="ICt-nu-4u2" id="WdN-q3-6P3"/>
             </connections>
             <point key="canvasLocation" x="259" y="258"/>

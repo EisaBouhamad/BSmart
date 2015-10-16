@@ -63,7 +63,7 @@ class CourseModel: NSObject {
         course4.courseNumber = 400
         course4.courseTitle = "الاحياء"
         course4.courseImage = UIImage(named:"Bio_logo.jpg")!
-        //course4.courseColor = UIColor.purpleColor()
+        course4.courseColor = UIColor.purpleColor()
         courses.append(course4)
         
         course5.courseNumber = 500

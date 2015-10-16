@@ -32,16 +32,19 @@ class CourseTableViewCell: UITableViewCell {
 
         textCourseCell.text = text
         
-        //textCourseCell.backgroundColor = UIColor.cyanColor()
-        
     }
     
     func setLabelColor(String:UIColor) {
         
-        //textCourseCell.backgroundColor = UIColor.blackColor()
-        
         ColorCourseCell.backgroundColor = String
         
     }
+    
+    func setLabelImage(String:UIImage) {
+        
+        ImageCourseCell.image = String
+        
+    }
+
     
 }
