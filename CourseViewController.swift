@@ -64,8 +64,7 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
 
         
-        // Loop through each dictionary and assign values to our question objs
-        
+        // Loop through each row and assign color and image to each
         
         var index:Int
         
@@ -73,8 +72,10 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
             
             if ((indexPath.row) == index) {
                 
+                // assign color
                 cell.setLabelColor(courses[index].courseColor)
                 
+                // assign image
                 cell.setLabelImage(courses[index].courseImage)
             }
         }
@@ -82,6 +83,7 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
   
         // Adding arrows
         // cell.accessoryType = .DetailDisclosureButton
+        
         
         // Return the cell
         return cell

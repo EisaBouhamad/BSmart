@@ -29,7 +29,7 @@
                     <navigationItem key="navigationItem" id="t5S-Hy-vzP"/>
                     <connections>
                         <outlet property="courseTableView" destination="9Qa-eI-pYl" id="jKe-R9-DoV"/>
-                        <segue destination="93y-fM-Hj9" kind="show" identifier="ToLessonViewController" id="g0r-xh-0uz"/>
+                        <segue destination="93y-fM-Hj9" kind="push" identifier="ToLessonViewController" id="g0r-xh-0uz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XXF-t7-RoC" userLabel="First Responder" sceneMemberID="firstResponder"/>
