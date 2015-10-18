@@ -10,7 +10,7 @@ import UIKit
 
 class Lesson: NSObject {
     
-    var lessonNumber:Int = 0
+    var lessonNumber:String = ""
     var lessonTitle:String = ""
     var lesssonImage:String = ""
     var lessonUrl:String = ""

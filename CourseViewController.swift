@@ -14,7 +14,7 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var courses:[Course] = [Course]()
     var courseModel:CourseModel = CourseModel()
     var selectedCourse:Course?
-    var courseToDisplay = [Lesson]()
+    var courseToDisplay = [Unit]()
     
     @IBOutlet weak var courseTableView: UITableView!
     
@@ -48,9 +48,10 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return courses.count
     }
     
+    
+    
     // Setup the cell details
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
         
         // Try to get a cell to use
         let cell:CourseTableViewCell = tableView.dequeueReusableCellWithIdentifier("CourseCell") as! CourseTableViewCell
@@ -59,10 +60,6 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         // Set label text
         cell.setLabelText(courses[indexPath.row].courseTitle)
-        
-        
-        
-
         
         // Loop through each row and assign color and image to each
         
@@ -97,7 +94,7 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         selectedCourse = courses[indexPath.row]
         
         //Trigger the segue to go to the LessonTableViewController
-        self.performSegueWithIdentifier("ToLessonViewController", sender: self)
+        self.performSegueWithIdentifier("ToUnitViewController", sender: self)
         
     }
     
@@ -107,46 +104,48 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         //if segue.identifier == "course %02d" {  }
         
         // To determine which lesson to choose and return an array of lessons
-        func courseWasSelected () -> [Lesson] {
+        func courseWasSelected () -> [Unit] {
             
             let courseWasSelected = selectedCourse
             
             // All the lessons
-            var lessons = [Lesson]()
+            var units = [Unit]()
             
             // Only related lessons to the course
-            var courseIsSelected = [Lesson]()
+            var courseIsSelected = [Unit]()
             
-            lessons = courseModel.getLesson()
+            units = courseModel.getUnit()
             
-            if courseWasSelected?.courseNumber == 100 {
+            if courseWasSelected?.courseNumber == "10.00.000" {
                 
-                courseIsSelected = [lessons[0],lessons[1],lessons[2]]
+                courseIsSelected = [units[0],units[1],units[2]]
                 
-            } else if courseWasSelected?.courseNumber == 200 {
+            } else if courseWasSelected?.courseNumber == "20.00.000" {
                 
-                courseIsSelected = [lessons[3],lessons[4],lessons[5]]
+                courseIsSelected = [units[3],units[4],units[5]]
                 
-            } else if courseWasSelected?.courseNumber == 300 {
+            } else if courseWasSelected?.courseNumber == "30.00.000" {
                 
-                courseIsSelected = [lessons[6],lessons[7],lessons[8]]
+                courseIsSelected = [units[6],units[7],units[8]]
                 
             }
             
             return courseIsSelected
         }
 
-        // Call the method to choose wich lessons to display
+        // Call the method to choose which lessons to display
         courseToDisplay = courseWasSelected()
         
-        if segue.identifier == "ToLessonViewController" {
+        if segue.identifier == "ToUnitViewController" {
             
             // Select the segue
-            let lessonVC = segue.destinationViewController as! LessonViewController
+            let unitVC = segue.destinationViewController as! UnitViewController
            
             // Track the selected course and connected to the lesson view controller
-            lessonVC.lessonsToDisplay = courseToDisplay
+            unitVC.unitsToDisplay = courseToDisplay
             
         }
     }
 }
+
+

@@ -10,11 +10,10 @@ import UIKit
 
 class Course: NSObject {
     
-    var courseNumber:Int = 0
+    var courseNumber:String = ""
     var courseTitle:String = ""
     var courseImage:UIImage = UIImage()
     var courseColor:UIColor = UIColor()
-    
     
     
 }

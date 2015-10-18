@@ -48,6 +48,11 @@ class LessonViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         cell.textLabel?.text = lessonsToDisplay[indexPath.row].lessonTitle
         
+        //cell.textLabel?.textAlignment = NSTextAlignment.Center
+        
+        
+        
+        
         return cell
         
     }
@@ -60,7 +65,6 @@ class LessonViewController: UIViewController, UITableViewDelegate, UITableViewDa
         //Trigger the segue to go to the LessonTableViewController
        // self.performSegueWithIdentifier("ToLessonViewController", sender: self)
 
-        
     }
     
     func tableView(tableView: UITableView, accessoryButtonTappedForRowWithIndexPath indexPath: NSIndexPath) {
