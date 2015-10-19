@@ -28,6 +28,9 @@ class LessonViewController: UIViewController, UITableViewDelegate, UITableViewDa
         self.lessonTableView.delegate = self
         self.lessonTableView.dataSource = self
         
+        // Register the courseTableView cell
+        lessonTableView.registerNib(UINib(nibName: "LessonTableViewCell", bundle: nil), forCellReuseIdentifier: "LessonCell")
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -44,13 +47,13 @@ class LessonViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         // Try to reuse a cell
-        let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("LessonBasicCell") as UITableViewCell!
+        let cell:LessonTableViewCell = tableView.dequeueReusableCellWithIdentifier("LessonCell") as! LessonTableViewCell!
         
-        cell.textLabel?.text = lessonsToDisplay[indexPath.row].lessonTitle
+        //cell.textLabel?.text = lessonsToDisplay[indexPath.row].lessonTitle
         
         //cell.textLabel?.textAlignment = NSTextAlignment.Center
-        
-        
+    
+        cell.setLabalText(lessonsToDisplay[indexPath.row].lessonTitle)
         
         
         return cell

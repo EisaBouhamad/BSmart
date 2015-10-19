@@ -31,12 +31,13 @@ class UnitViewController: UITableViewController {
         self.unitTableView.delegate = self
         self.unitTableView.dataSource = self
 
+        
+        // Register the courseTableView cell
+        unitTableView.registerNib(UINib(nibName: "UnitTableViewCell", bundle: nil), forCellReuseIdentifier: "UnitCell")
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -44,13 +45,7 @@ class UnitViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    // MARK: - Table view data source
-/*
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 5
-    }
-*/
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 
         return unitsToDisplay.count
@@ -59,11 +54,12 @@ class UnitViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier") as UITableViewCell!
+        let cell:UnitTableViewCell = tableView.dequeueReusableCellWithIdentifier("UnitCell") as! UnitTableViewCell!
 
         // Configure the cell...
-                
-        cell.textLabel?.text = unitsToDisplay[indexPath.row].unitTitle
+        
+        cell.setLabalText(unitsToDisplay[indexPath.row].unitTitle)
+        
 
         return cell
         

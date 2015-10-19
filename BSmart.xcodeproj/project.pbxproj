@@ -24,6 +24,10 @@
 		7CC67DD91BD395720035DB4D /* Discloture Indecator Left.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC67DD81BD395720035DB4D /* Discloture Indecator Left.png */; settings = {ASSET_TAGS = (); }; };
 		7CC67DDD1BD3D0970035DB4D /* UnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC67DDC1BD3D0970035DB4D /* UnitViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		7CC67DDF1BD3D44B0035DB4D /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC67DDE1BD3D44B0035DB4D /* Unit.swift */; settings = {ASSET_TAGS = (); }; };
+		7CF02A881BD4C9B200DD0C0C /* UnitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF02A861BD4C9B200DD0C0C /* UnitTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		7CF02A891BD4C9B200DD0C0C /* UnitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF02A871BD4C9B200DD0C0C /* UnitTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		7CF02A8C1BD4D07000DD0C0C /* LessonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF02A8A1BD4D07000DD0C0C /* LessonTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		7CF02A8D1BD4D07000DD0C0C /* LessonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF02A8B1BD4D07000DD0C0C /* LessonTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		7CF543091BC51B0B0021DEEA /* CourseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF543071BC51B0B0021DEEA /* CourseTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		7CFCB7971BCD0A07001BD728 /* BeSmart.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFCB78E1BCD0A07001BD728 /* BeSmart.jpeg */; settings = {ASSET_TAGS = (); }; };
 		7CFCB7981BCD0A07001BD728 /* Bio_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFCB78F1BCD0A07001BD728 /* Bio_logo.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -68,6 +72,10 @@
 		7CC67DD81BD395720035DB4D /* Discloture Indecator Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Discloture Indecator Left.png"; sourceTree = "<group>"; };
 		7CC67DDC1BD3D0970035DB4D /* UnitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitViewController.swift; sourceTree = "<group>"; };
 		7CC67DDE1BD3D44B0035DB4D /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		7CF02A861BD4C9B200DD0C0C /* UnitTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitTableViewCell.swift; sourceTree = "<group>"; };
+		7CF02A871BD4C9B200DD0C0C /* UnitTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnitTableViewCell.xib; sourceTree = "<group>"; };
+		7CF02A8A1BD4D07000DD0C0C /* LessonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonTableViewCell.swift; sourceTree = "<group>"; };
+		7CF02A8B1BD4D07000DD0C0C /* LessonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LessonTableViewCell.xib; sourceTree = "<group>"; };
 		7CF543071BC51B0B0021DEEA /* CourseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseTableViewCell.xib; sourceTree = "<group>"; };
 		7CFCB78E1BCD0A07001BD728 /* BeSmart.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BeSmart.jpeg; sourceTree = "<group>"; };
 		7CFCB78F1BCD0A07001BD728 /* Bio_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bio_logo.jpg; sourceTree = "<group>"; };
@@ -132,6 +140,10 @@
 				7CC13F121A7545BA0014DCBC /* Main.storyboard */,
 				7C3FC4671BC508560094AE26 /* CourseTableViewCell.swift */,
 				7CF543071BC51B0B0021DEEA /* CourseTableViewCell.xib */,
+				7CF02A861BD4C9B200DD0C0C /* UnitTableViewCell.swift */,
+				7CF02A871BD4C9B200DD0C0C /* UnitTableViewCell.xib */,
+				7CF02A8A1BD4D07000DD0C0C /* LessonTableViewCell.swift */,
+				7CF02A8B1BD4D07000DD0C0C /* LessonTableViewCell.xib */,
 				7CC13F151A7545BA0014DCBC /* Images.xcassets */,
 				7CC67DD81BD395720035DB4D /* Discloture Indecator Left.png */,
 				7CC67DD61BD3944C0035DB4D /* Discloture Indecator Right.png */,
@@ -264,6 +276,8 @@
 				7CFCB79D1BCD0A07001BD728 /* Physics_logo.jpg in Resources */,
 				7CFCB7981BCD0A07001BD728 /* Bio_logo.jpg in Resources */,
 				7CC67DD71BD3944C0035DB4D /* Discloture Indecator Right.png in Resources */,
+				7CF02A891BD4C9B200DD0C0C /* UnitTableViewCell.xib in Resources */,
+				7CF02A8D1BD4D07000DD0C0C /* LessonTableViewCell.xib in Resources */,
 				7CFCB79F1BCD0A07001BD728 /* Stat_logo.jpeg in Resources */,
 				7CFCB79C1BCD0A07001BD728 /* Math_logo.jpg in Resources */,
 				7CC67DD91BD395720035DB4D /* Discloture Indecator Left.png in Resources */,
@@ -287,11 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF02A8C1BD4D07000DD0C0C /* LessonTableViewCell.swift in Sources */,
 				7C3FC46E1BC508560094AE26 /* Course.swift in Sources */,
 				7C3FC4731BC508560094AE26 /* LessonModel.swift in Sources */,
 				7C3FC4761BC508560094AE26 /* SettingsViewController.swift in Sources */,
 				7C3FC46F1BC508560094AE26 /* CourseModel.swift in Sources */,
 				7CC13F0F1A7545BA0014DCBC /* AppDelegate.swift in Sources */,
+				7CF02A881BD4C9B200DD0C0C /* UnitTableViewCell.swift in Sources */,
 				7CC67DDD1BD3D0970035DB4D /* UnitViewController.swift in Sources */,
 				7CC67DDF1BD3D44B0035DB4D /* Unit.swift in Sources */,
 				7C3FC4701BC508560094AE26 /* CourseTableViewCell.swift in Sources */,

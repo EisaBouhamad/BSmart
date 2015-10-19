@@ -17,6 +17,7 @@ class CourseTableViewCell: UITableViewCell {
     @IBOutlet weak var ImageCourseCell: UIImageView!
     @IBOutlet weak var textCourseCell: UILabel!
     
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -45,6 +46,7 @@ class CourseTableViewCell: UITableViewCell {
         ImageCourseCell.image = String
         
     }
-
+    
+    
     
 }
