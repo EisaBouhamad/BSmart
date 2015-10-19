@@ -104,7 +104,7 @@ class UnitViewController: UITableViewController {
                 
                 unitIsSelected = [lessons[7],lessons[8],lessons[9]]
                 
-            } else if unitWasSelected.unitNumber == "10.02.000" {
+            } else if unitWasSelected.unitNumber == "10.03.000" {
                 
                 unitIsSelected = [lessons[10],lessons[11],lessons[12]]
                 
@@ -125,12 +125,5 @@ class UnitViewController: UITableViewController {
             lessonVC.lessonsToDisplay = lessonsToDisplay
             
         }
-
-        
-        
     }
-    
-
-    
-    
 }

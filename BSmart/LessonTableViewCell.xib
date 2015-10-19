@@ -18,23 +18,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fu2-Jx-URD">
-                                <rect key="frame" x="61" y="0.0" width="249" height="43"/>
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="249" id="Jhn-gY-t4r"/>
-                                    <constraint firstAttribute="height" constant="43" id="hkY-DR-7qO"/>
+                                    <constraint firstAttribute="width" constant="300" id="2di-JJ-Ih1"/>
+                                    <constraint firstAttribute="height" constant="43" id="R5Q-ix-7C5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="fu2-Jx-URD" firstAttribute="top" secondItem="fQm-jI-zU1" secondAttribute="top" id="eyD-UP-uli"/>
-                            <constraint firstAttribute="trailing" secondItem="fu2-Jx-URD" secondAttribute="trailing" constant="10" id="sYX-t1-MYb"/>
-                            <constraint firstAttribute="bottom" secondItem="fu2-Jx-URD" secondAttribute="bottom" id="zst-Vx-h5b"/>
+                            <constraint firstItem="fu2-Jx-URD" firstAttribute="leading" secondItem="fQm-jI-zU1" secondAttribute="leading" id="eeJ-N6-Cxn"/>
+                            <constraint firstItem="fu2-Jx-URD" firstAttribute="top" secondItem="fQm-jI-zU1" secondAttribute="top" id="fkw-wb-ciu"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -50,6 +49,7 @@
             <connections>
                 <outlet property="textLessonCell" destination="fu2-Jx-URD" id="XV8-Yr-Swd"/>
             </connections>
+            <point key="canvasLocation" x="302" y="217"/>
         </tableViewCell>
     </objects>
 </document>

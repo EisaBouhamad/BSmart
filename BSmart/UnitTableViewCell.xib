@@ -20,26 +20,25 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yohoo" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUF-ce-Oqm">
-                        <rect key="frame" x="65" y="0.0" width="245" height="43"/>
+                        <rect key="frame" x="0.0" y="0.0" width="296" height="43"/>
                         <animations/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="245" id="Kgm-cG-3Uu"/>
-                            <constraint firstAttribute="height" constant="43" id="Xmr-NQ-ZgH"/>
+                            <constraint firstAttribute="height" constant="43" id="J0c-Sx-ioR"/>
+                            <constraint firstAttribute="width" constant="296" id="XZ1-zQ-Ecd"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <animations/>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="pUF-ce-Oqm" secondAttribute="bottom" id="N7f-uP-KYB"/>
-                    <constraint firstAttribute="trailing" secondItem="i2D-ey-zkM" secondAttribute="trailing" id="Tad-S0-bcJ"/>
-                    <constraint firstItem="i2D-ey-zkM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Uuo-Xl-muH"/>
-                    <constraint firstAttribute="trailing" secondItem="pUF-ce-Oqm" secondAttribute="trailing" constant="10" id="acb-tV-7AE"/>
-                    <constraint firstItem="i2D-ey-zkM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gHZ-AS-qBA"/>
-                    <constraint firstAttribute="bottom" secondItem="i2D-ey-zkM" secondAttribute="bottom" id="nLb-Yb-aJm"/>
-                    <constraint firstItem="pUF-ce-Oqm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pvX-wY-tzl"/>
+                    <constraint firstAttribute="bottom" secondItem="i2D-ey-zkM" secondAttribute="bottom" id="8Ky-9J-e7w"/>
+                    <constraint firstItem="pUF-ce-Oqm" firstAttribute="top" secondItem="i2D-ey-zkM" secondAttribute="top" id="D7m-mx-ZR6"/>
+                    <constraint firstAttribute="trailing" secondItem="i2D-ey-zkM" secondAttribute="trailing" id="N4u-SE-BZT"/>
+                    <constraint firstItem="i2D-ey-zkM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Tzp-cY-ic4"/>
+                    <constraint firstItem="i2D-ey-zkM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="c40-gS-PkQ"/>
+                    <constraint firstItem="pUF-ce-Oqm" firstAttribute="leading" secondItem="i2D-ey-zkM" secondAttribute="leading" id="cuw-68-8ud"/>
                 </constraints>
             </tableViewCellContentView>
             <animations/>
