@@ -14,7 +14,8 @@ class Course: NSObject {
     var courseTitle:String = ""
     var courseImage:UIImage = UIImage()
     var courseColor:UIColor = UIColor()
-    
+    var course:[String]=[String]()
+    var courseID:[String:String] = [String:String]()
     
 }
 

@@ -102,11 +102,11 @@ class UnitViewController: UITableViewController {
                 
             } else if unitWasSelected.unitNumber == "10.02.000" {
                 
-                unitIsSelected = [lessons[7],lessons[8],lessons[9]]
+                unitIsSelected = [lessons[7],lessons[8],lessons[9],lessons[10],lessons[11]]
                 
             } else if unitWasSelected.unitNumber == "10.03.000" {
                 
-                unitIsSelected = [lessons[10],lessons[11],lessons[12]]
+                unitIsSelected = [lessons[12]]
                 
             }
             

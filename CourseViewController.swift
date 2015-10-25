@@ -15,6 +15,8 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var courseModel:CourseModel = CourseModel()
     var selectedCourse:Course?
     var courseToDisplay = [Unit]()
+    var view1:UIViewController = UIViewController()
+    var view2:UIViewController = UIViewController()
     
     @IBOutlet weak var courseTableView: UITableView!
     
@@ -27,20 +29,39 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         
         // Register the courseTableView cell
-        //courseTableView.registerClass(CourseTableViewCell.self, forCellReuseIdentifier: "CourseCell")
         courseTableView.registerNib(UINib(nibName: "CourseTableViewCell", bundle: nil), forCellReuseIdentifier: "CourseCell")
         
         
         // call the getcourse method to creat a courses objects
         courses = courseModel.getCourse()
         
+        
+
+/*
+        let storyboard = UIStoryboard(name: "myStoryboardName", bundle: nil)
+        
+        let mainVC = storyboard.instantiateViewControllerWithIdentifier("sameViewController") as UIViewController
+        
+        
+        UIView.transitionFromView(fromView: CourseViewController, toView: UnitViewController, duration: 0.5, options: .TrasitionFlioFromLeft , completion: <#T##((Bool) -> Void)?##((Bool) -> Void)?##(Bool) -> Void#>)
+ 
+*/
+
+/*
+        UIView.transitionFromView(x1, toView: x2, duration: 1, options: UIViewAnimationOptions.TransitionFlipFromRight, completion: nil)
+  
+*/
     }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
         // Dispose of any resources that can be recreated.
     }
+    
+    
     
     // Number of row in the table view
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -60,6 +81,7 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         // Set label text
         cell.setLabelText(courses[indexPath.row].courseTitle)
+        
         
         // Loop through each row and assign color and image to each
         
