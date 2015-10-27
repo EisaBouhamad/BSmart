@@ -34,23 +34,9 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         // call the getcourse method to creat a courses objects
         courses = courseModel.getCourse()
-        
-        
 
-/*
-        let storyboard = UIStoryboard(name: "myStoryboardName", bundle: nil)
-        
-        let mainVC = storyboard.instantiateViewControllerWithIdentifier("sameViewController") as UIViewController
         
         
-        UIView.transitionFromView(fromView: CourseViewController, toView: UnitViewController, duration: 0.5, options: .TrasitionFlioFromLeft , completion: <#T##((Bool) -> Void)?##((Bool) -> Void)?##(Bool) -> Void#>)
- 
-*/
-
-/*
-        UIView.transitionFromView(x1, toView: x2, duration: 1, options: UIViewAnimationOptions.TransitionFlipFromRight, completion: nil)
-  
-*/
     }
     
     
